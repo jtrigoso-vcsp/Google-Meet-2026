@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía Google Meet 2026 - Javier Trigoso</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --teal: #005B50;
+            --gold: #C9A14D;
+            --navy: #0A2D57;
+            --anthracite: #333333;
+        }
+        body {
+            line-height: 1.15;
+            background-color: #f8fafc;
+            color: var(--anthracite);
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        p, span, h1, h2, h3, h4 {
+            margin: 0;
+            padding: 0;
+        }
+        .card-container {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-container:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .bg-teal-vcsp { background-color: var(--teal); }
+        .bg-navy-vcsp { background-color: var(--navy); }
+        .text-gold-vcsp { color: var(--gold); }
+        .border-gold-vcsp { border-color: var(--gold); }
+    </style>
+</head>
+<body class="py-8 px-4 md:px-8">
+
+    <div class="max-w-6xl mx-auto bg-white rounded-[2.5rem] shadow-[0_30px_60px_-12px_rgba(0,0,0,0.25)] overflow-hidden border border-slate-200">
+        
+        <!-- Header Institucional -->
+        <header class="p-10 md:p-14 text-white relative text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-8 bg-teal-vcsp">
+            <div class="absolute top-0 left-0 w-full h-2.5" style="background-color: var(--gold);"></div>
+            <div class="z-10">
+                <h1 class="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-1">Google Meet 2026</h1>
+                <p class="text-xl md:text-2xl opacity-90 font-medium italic">Protocolo de excelencia para el profesorado VCSP</p>
+            </div>
+            <div class="z-10 bg-white/10 backdrop-blur-xl p-6 rounded-[2rem] border border-white/20 text-center min-w-[200px] shadow-2xl">
+                <span class="block text-4xl font-black text-gold-vcsp">30 min</span>
+                <span class="text-[11px] uppercase font-bold tracking-[0.2em] text-white">Taller Express</span>
+            </div>
+        </header>
+
+        <!-- Grid de Contenido -->
+        <div class="p-8 md:p-14">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                
+                <!-- Card 1: Acceso -->
+                <div class="card-container bg-white border border-slate-100 p-8 rounded-[2.5rem] shadow-sm">
+                    <div class="flex items-start justify-between mb-8">
+                        <div>
+                            <h2 class="text-2xl font-black uppercase tracking-tight" style="color: var(--navy);">Acceso Seguro</h2>
+                            <p class="text-[11px] font-bold uppercase tracking-widest text-gold-vcsp">Ecosistema Google</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-2xl">
+                            <i data-lucide="link" class="w-8 h-8 text-gold-vcsp"></i>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex gap-4 items-start">
+                            <div class="mt-1 p-2 rounded-xl bg-slate-50" style="color: var(--navy);"><i data-lucide="school" class="w-5 h-5"></i></div>
+                            <div>
+                                <p class="font-bold text-sm mb-1" style="color: var(--navy);">Google Classroom:</p>
+                                <p class="text-sm md:text-base">Actívalo en el tablón. Impide que el alumnado ingrese antes que el docente en la asignatura de Matemáticas.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <div class="mt-1 p-2 rounded-xl bg-slate-50" style="color: var(--navy);"><i data-lucide="calendar" class="w-5 h-5"></i></div>
+                            <div>
+                                <p class="font-bold text-sm mb-1" style="color: var(--navy);">Google Calendar:</p>
+                                <p class="text-sm md:text-base">Programa con antelación para generar enlaces permanentes y recordatorios para la clase de física.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Seguridad -->
+                <div class="card-container bg-white border border-slate-100 p-8 rounded-[2.5rem] shadow-sm">
+                    <div class="flex items-start justify-between mb-8">
+                        <div>
+                            <h2 class="text-2xl font-black uppercase tracking-tight" style="color: var(--navy);">Seguridad Digital</h2>
+                            <p class="text-[11px] font-bold uppercase tracking-widest text-gold-vcsp">Panel del Organizador</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-2xl">
+                            <i data-lucide="shield-check" class="w-8 h-8 text-gold-vcsp"></i>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex gap-4 items-start">
+                            <div class="mt-1 p-2 rounded-xl bg-slate-50" style="color: var(--navy);"><i data-lucide="lock" class="w-5 h-5"></i></div>
+                            <div>
+                                <p class="font-bold text-sm mb-1" style="color: var(--navy);">Gestión de acceso:</p>
+                                <p class="text-sm md:text-base">Si lo desactivas, todos deben pedir permiso. Vital para la seguridad en la asignatura de Historia.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <div class="mt-1 p-2 rounded-xl bg-slate-50" style="color: var(--navy);"><i data-lucide="message-square" class="w-5 h-5"></i></div>
+                            <div>
+                                <p class="font-bold text-sm mb-1" style="color: var(--navy);">Restricciones:</p>
+                                <p class="text-sm md:text-base">Bloquea el chat y el compartir pantalla durante las explicaciones densas de la biología.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Presentación -->
+                <div class="card-container bg-white border border-slate-100 p-8 rounded-[2.5rem] shadow-sm">
+                    <div class="flex items-start justify-between mb-8">
+                        <div>
+                            <h2 class="text-2xl font-black uppercase tracking-tight" style="color: var(--navy);">Presentación</h2>
+                            <p class="text-[11px] font-bold uppercase tracking-widest text-gold-vcsp">Optimización Visual</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-2xl">
+                            <i data-lucide="presentation" class="w-8 h-8 text-gold-vcsp"></i>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex gap-4 items-start">
+                            <div class="mt-1 p-2 rounded-xl bg-slate-50" style="color: var(--navy);"><i data-lucide="volume-2" class="w-5 h-5"></i></div>
+                            <div>
+                                <p class="font-bold text-sm mb-1" style="color: var(--navy);">Una pestaña:</p>
+                                <p class="text-sm md:text-base">Obligatorio para vídeos. Transmite audio digital con máxima fidelidad para la asignatura de Música.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <div class="mt-1 p-2 rounded-xl bg-slate-50" style="color: var(--navy);"><i data-lucide="monitor" class="w-5 h-5"></i></div>
+                            <div>
+                                <p class="font-bold text-sm mb-1" style="color: var(--navy);">Una ventana:</p>
+                                <p class="text-sm md:text-base">Ideal para mostrar software específico (calculadoras) sin exponer tus archivos privados.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4: Gestión de Aula -->
+                <div class="card-container bg-white border border-slate-100 p-8 rounded-[2.5rem] shadow-sm">
+                    <div class="flex items-start justify-between mb-8">
+                        <div>
+                            <h2 class="text-2xl font-black uppercase tracking-tight" style="color: var(--navy);">Gestión de Aula</h2>
+                            <p class="text-[11px] font-bold uppercase tracking-widest text-gold-vcsp">Cierre y Control</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-2xl">
+                            <i data-lucide="users" class="w-8 h-8 text-gold-vcsp"></i>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex gap-4 items-start">
+                            <div class="mt-1 p-2 rounded-xl bg-slate-50" style="color: var(--navy);"><i data-lucide="mic-off" class="w-5 h-5"></i></div>
+                            <div>
+                                <p class="font-bold text-sm mb-1" style="color: var(--navy);">Silenciar a todos:</p>
+                                <p class="text-sm md:text-base">Elimina ruidos ambientales de un solo clic desde el panel de Personas.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <div class="mt-1 p-2 rounded-xl bg-slate-50" style="color: var(--navy);"><i data-lucide="x-octagon" class="w-5 h-5"></i></div>
+                            <div>
+                                <p class="font-bold text-sm mb-1" style="color: var(--navy);">Finalizar para todos:</p>
+                                <p class="text-sm md:text-base">No salgas de la llamada; ciérrala. Evita que el alumnado se quede sin supervisión.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Sección de Valor - Tip de Oro -->
+            <div class="mt-14 p-12 rounded-[3rem] relative overflow-hidden flex flex-col md:flex-row items-center gap-10 bg-navy-vcsp">
+                <div class="absolute top-0 right-0 p-10 opacity-10">
+                    <i data-lucide="star" class="w-40 h-40 text-white"></i>
+                </div>
+                <div class="bg-white/10 p-8 rounded-full border border-white/20 shadow-inner">
+                    <i data-lucide="star" class="w-12 h-12 text-gold-vcsp" fill="#C9A14D"></i>
+                </div>
+                <div class="text-white text-center md:text-left z-10">
+                    <h3 class="text-xl font-black uppercase tracking-[0.2em] mb-3 text-gold-vcsp">Tip de Oro VCSP</h3>
+                    <p class="text-base md:text-xl font-medium">
+                        En la asignatura de Química, fomenta el orden: utiliza el chat para preguntas rápidas y el botón de levantar la mano para intervenciones en voz alta. Esto optimiza la fluidez de la enseñanza de la física.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Nota Técnica -->
+            <div class="mt-10 flex items-center gap-6 p-8 rounded-3xl border-l-[10px] border-gold-vcsp" style="background-color: #FDF4E3;">
+                <i data-lucide="alert-triangle" class="shrink-0 text-gold-vcsp w-10 h-10"></i>
+                <p class="text-sm md:text-base font-bold text-slate-800">
+                    AVISO DE CUENTA <span class="text-teal-vcsp font-black">FUNDAMENTALS</span>: La función de grabación nativa no está disponible. Se recomienda encarecidamente compartir presentaciones y guías directamente en Google Classroom tras finalizar la sesión virtual.
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer Institucional -->
+        <footer class="py-8 text-center bg-slate-50 border-t border-slate-100">
+            <p class="text-[11px] font-black uppercase tracking-[0.5em]" style="color: var(--anthracite);">
+                Desarrollado por Javier Trigoso | Colegios VCSP 2026
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Inicializar Iconos de Lucide
+        lucide.createIcons();
+    </script>
+</body>
+</html>
